@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7.7 Class</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      margin: 0;
+      background: #f4f6fb;
+    }
+    header {
+      height: 220px;
+      background: linear-gradient(135deg, #36d1dc, #5b86e5, #d66efd);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+    header p {
+      opacity: 0.9;
+      margin-top: 8px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 20px;
+      box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+      animation: fadeUp 0.8s ease;
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #333;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 14px;
+      margin-top: 10px;
+    }
+    .gallery {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+    }
+    .gallery img {
+      width: 160px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 14px;
+      flex-shrink: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body><header>
+  <h1>7.7 CLASS</h1>
+  <p>Solid • Kompak • Berprestasi</p>
+</header><div class="container">  <div class="card">
+    <h2>📸 Foto Kelas</h2>
+    <!-- GANTI FOTO DI SINI -->
+    <img src="foto-kelas.jpg" alt="Foto Kelas">
+  </div>  <div class="card">
+    <h2>🏫 Tentang Kelas</h2>
+    <!-- GANTI TEKS DI SINI -->
+    <p>Kelas 7.7 adalah kelas yang aktif, ceria, dan selalu kompak dalam belajar maupun kegiatan sekolah.</p>
+  </div>  <div class="card">
+    <h2>👨‍🏫 Wali Kelas</h2>
+    <!-- GANTI FOTO & NAMA -->
+    <img src="wali-kelas.jpg" alt="Wali Kelas">
+    <p><b>Nama Wali Kelas</b></p>
+  </div>  <div class="card">
+    <h2>👥 Anggota Kelas</h2>
+    <!-- GANTI NAMA SISWA -->
+    <ul>
+      <li>Siswa 1</li>
+      <li>Siswa 2</li>
+      <li>Siswa 3</li>
+      <li>Siswa 4</li>
+      <li>Dan seterusnya...</li>
+    </ul>
+  </div>  <div class="card">
+    <h2>✨ Galeri Kegiatan</h2>
+    <!-- GANTI FOTO GALERI -->
+    <div class="gallery">
+      <img src="galeri1.jpg">
+      <img src="galeri2.jpg">
+      <img src="galeri3.jpg">
+      <img src="galeri4.jpg">
+    </div>
+  </div></div><footer>
+  © 2026 • Website Resmi Kelas 7.7
+</footer></body>
+</html>
